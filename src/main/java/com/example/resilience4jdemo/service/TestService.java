@@ -13,7 +13,7 @@ import reactor.core.publisher.Mono;
 @Bulkhead(name = "testService")
 public class TestService {
 
-  private static final String appBaseUrl = "http://localhost:9090";
+  private static final String appBaseUrl = "http://localhost:9999";
 
   public String fastResponse() {
     Mono<String> response =
