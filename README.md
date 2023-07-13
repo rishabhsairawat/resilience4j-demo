@@ -2,9 +2,9 @@
 
 * Exposes 3 endpoints:
 
-  1. http://localhost:8080/fast (Immediate Success Response)
-  2. http://localhost:8080/slow (Success Response With 5sec Delay)
-  3. http://localhost:8080/exception (500 Response)
+  1. http://localhost:8080/test/fast (Immediate Success Response)
+  2. http://localhost:8080/test/slow (Success Response With 5sec Delay)
+  3. http://localhost:8080/test/exception (500 Response)
 
 * Calls another service running at port 9999 from the [node-app](https://github.com/rishabhsairawat/node-app)
 
