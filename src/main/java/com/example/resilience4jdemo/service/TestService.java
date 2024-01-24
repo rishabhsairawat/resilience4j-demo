@@ -8,6 +8,10 @@ import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
 /** @author RishabhSairawat */
+/**
+ * This class represents a test service that makes HTTP requests to a remote server.
+ * It includes methods for making fast, slow, and exception responses.
+ */
 @Service
 @CircuitBreaker(name = "testService")
 @Bulkhead(name = "testService")
